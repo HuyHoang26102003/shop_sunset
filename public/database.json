@@ -12,8 +12,8 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "shoes",
       "rate": 3,
-      "name": "Faxon Canvas Low-Top Sneaker",
-      "price": 400,
+      "name": "Áo mặc mùa đông",
+      "price": 30,
       "sizes": [
         {
           "label": "S",
@@ -46,9 +46,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/sweater_1.jpg",
+        "/assets/img/sweater_1.jpg",
+        "/assets/img/sweater_1.jpg"
       ]
     },
     {
@@ -63,8 +63,8 @@
       },
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "rate": 4,
-      "name": "Viscose-Cashmere Scarf",
-      "price": 547,
+      "name": "Áo thun",
+      "price": 59,
       "sizes": [
         {
           "label": "S",
@@ -97,9 +97,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/t-shirt.jpg",
+        "/assets/img/t-shirt.jpg",
+        "/assets/img/t-shirt.jpg"
       ]
     },
     {
@@ -114,8 +114,8 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "FPlaid Cotton Oxford Shirt",
-      "price": 547,
+      "name": "Đầm bộ",
+      "price": 90,
       "sizes": [
         {
           "label": "S",
@@ -148,9 +148,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/dress.jpg",
+        "/assets/img/dress.jpg",
+        "/assets/img/dress.jpg"
       ]
     },
     {
@@ -165,8 +165,8 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Round neck sweater",
-      "price": 320,
+      "name": "Váy nữ",
+      "price": 79,
       "sizes": [
         {
           "label": "S",
@@ -199,9 +199,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/skirt.jpg",
+        "/assets/img/skirt.jpg",
+        "/assets/img/skirt.jpg"
       ]
     },
     {
@@ -652,25 +652,25 @@
     ],
     "collection_banner": [
       {
-        "image": "/assets/img/woman_cloth.png",
+        "image": "/assets/img/woman_cloth.jpg",
         "collection_type": "Đồ nữ"
       },
       {
-        "image": "/assets/img/men_cloth.png",
+        "image": "/assets/img/men_cloth.jpg",
         "collection_type": "Đồ nam"
       },
       {
-        "image": "/assets/img/kid_cloth.png",
+        "image": "/assets/img/kid_cloth.jpg",
         "collection_type": "Đồ trẻ em"
       }
     ],
     "arrivals": [1, 3, 4, 2, 6, 8, 10],
     "season_sale": {
-      "title": "spring sale",
-      "description": "30% off on selected items",
-      "image": "http://zwin.io/react/stoon/assets/img/others/sales.png",
+      "title": "Black Friday Sale",
+      "description": "Giảm 30% trên tất cả sản phẩm",
+      "image": "/assets/img/spring_sale.jpg",
       "action": {
-        "label": "shop the sale",
+        "label": "khám phá ngay",
         "path": ""
       }
     },
@@ -678,21 +678,21 @@
     "collections": [
       {
         "id": 1,
-        "title": "Fashion clothing",
+        "title": "Thời Trang",
         "action": {
-          "label": "shop now",
+          "label": "mua ngay",
           "path": ""
         },
-        "image": "https://zwin.io/react/stoon/assets/img/collection/4.png"
+        "image": "/assets/img/fashion_cloth_1.jpg"
       },
       {
         "id": 2,
-        "title": "Accessories",
+        "title": "Phụ Kiện",
         "action": {
-          "label": "shop now",
+          "label": "mua ngay",
           "path": ""
         },
-        "image": "http://zwin.io/react/stoon/assets/img/collection/5.png"
+        "image": "/assets/img/sunglasses_1.jpg"
       },
       {
         "id": 1,

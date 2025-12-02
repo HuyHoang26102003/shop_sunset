@@ -38,7 +38,7 @@ export function Header() {
         <Styles.NavHeader>
           <Box flex={1} justifyContent="center" alignItems="center">
             <Image
-              src="/logo.svg"
+              src="/assets/img/logo.png"
               alt="logo"
               width={70}
               height={70}
@@ -53,10 +53,10 @@ export function Header() {
         </Styles.NavHeader>
         <Styles.List onClick={() => setIsOpen(false)}>
           <li>
-            <Link href={paths.home}>Home</Link>
+            <Link href={paths.home}>Trang chủ</Link>
           </li>
           <li>
-            <Link href={paths.home}>Cart</Link>
+            <Link href={paths.home}>Giỏ hàng</Link>
           </li>
         </Styles.List>
       </Styles.Navigation>
