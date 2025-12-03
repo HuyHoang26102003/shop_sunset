@@ -216,7 +216,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Faxon Canvas Low-Top Sneaker",
+      "name": "Giày thể thao",
       "price": 320,
       "sizes": [
         {
@@ -250,7 +250,7 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
+        "/assets/img/sneaker_1.jpg",
         "/assets/img/download.jpg",
         "/assets/img/download.jpg"
       ]
@@ -267,7 +267,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Faxon Canvas Low-Top Sneaker",
+      "name": "Giày thể thao",
       "price": 320,
       "sizes": [
         {
@@ -301,10 +301,10 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/sneaker_1.jpg",
+        "/assets/img/sneaker_1.jpg",
+        "/assets/img/sneaker_1.jpg",
+        "/assets/img/sneaker_1.jpg"
       ]
     },
     {
@@ -319,7 +319,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Faxon Canvas Low-Top Sneaker",
+      "name": "Giày thể thao",
       "price": 320,
       "sizes": [
         {
@@ -353,9 +353,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/sneaker_1.jpg",
+        "/assets/img/sneaker_1.jpg",
+        "/assets/img/sneaker_1.jpg"
       ]
     },
     {
@@ -370,7 +370,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Two-Tone Sleeveless Dress",
+      "name": "Giày thời trang",
       "price": 320,
       "sizes": [
         {
@@ -404,9 +404,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/sneaker_2.jpg",
+        "/assets/img/sneaker_2.jpg",
+        "/assets/img/sneaker_2.jpg"
       ]
     },
     {
@@ -421,7 +421,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Viscose-Cashmere Scarf",
+      "name": "Khăn choàng",
       "price": 320,
       "sizes": [
         {
@@ -455,9 +455,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg"
       ]
     },
     {
@@ -472,7 +472,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Viscose-Cashmere Scarf",
+      "name": "Khăn Choàng",
       "price": 320,
       "sizes": [
         {
@@ -506,9 +506,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg"
       ]
     },
     {
@@ -574,7 +574,7 @@
       "description": "Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.",
       "brand": "clothes",
       "rate": 4,
-      "name": "Viscose-Cashmere Scarf",
+      "name": "Khăn Choàng",
       "price": 320,
       "sizes": [
         {
@@ -608,9 +608,9 @@
         }
       ],
       "images": [
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg",
-        "/assets/img/download.jpg"
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg",
+        "/assets/img/scarf.jpg"
       ]
     }
   ],
