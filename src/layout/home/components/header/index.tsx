@@ -58,6 +58,9 @@ export function Header() {
           <li>
             <Link href={paths.home}>Giỏ hàng</Link>
           </li>
+          <li>
+            <Link href={paths.login}>Đăng xuất</Link>
+          </li>
         </Styles.List>
       </Styles.Navigation>
     </Styles.Container>

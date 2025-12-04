@@ -1,6 +1,7 @@
 export const paths = {
-  home: '/',
+  home: "/",
+  login: "/login",
   product: {
-    show: '/p/:id/:sku'
+    show: "/p/:id/:sku",
   },
-}
+};

@@ -696,21 +696,21 @@
       },
       {
         "id": 1,
-        "title": "Fashion clothing",
+        "title": "Giày",
         "action": {
-          "label": "shop now",
+          "label": "mua ngay",
           "path": ""
         },
-        "image": "http://zwin.io/react/stoon/assets/img/collection/4.png"
+        "image": "/assets/img/sneaker_3.jpg"
       },
       {
         "id": 2,
-        "title": "Accessories",
+        "title": "Mắt Kính",
         "action": {
-          "label": "shop now",
+          "label": "mua ngay",
           "path": ""
         },
-        "image": "https://zwin.io/react/stoon/assets/img/collection/5.png"
+        "image": "/assets/img/glasses.jpg"
       } 
     ]
   },

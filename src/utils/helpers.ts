@@ -1,28 +1,36 @@
-import { StandardLonghandProperties } from '@stitches/react/types/css'
+import { StandardLonghandProperties } from "@stitches/react/types/css";
 
-export function toLocaleString (value: number) {
-  return value.toLocaleString('pt-BR', {
-    currency: 'BRL',
-    style: 'currency'
-  })
-} 
+export function toLocaleString(value: number) {
+  // Format number using Brazilian locale (thousand/decimal separators)
+  const formattedNumber = value.toLocaleString("pt-BR", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
 
-export function parseToVariant <T> (obj: Record<string, string>, property: keyof StandardLonghandProperties) {
-  return Object
-    .entries(obj)
-    .map(([value]) => ({
-      [value]: {
-        [property]: `$${value}`
-      }
-    }))
-    .reduce((prev, next) => ({
-      ...prev,
-      ...next
-    }), {}) as unknown as T
+  // Prefix with a simple dollar sign instead of "R$"
+  return `$ ${formattedNumber}`;
 }
 
+export function parseToVariant<T>(
+  obj: Record<string, string>,
+  property: keyof StandardLonghandProperties
+) {
+  return Object.entries(obj)
+    .map(([value]) => ({
+      [value]: {
+        [property]: `$${value}`,
+      },
+    }))
+    .reduce(
+      (prev, next) => ({
+        ...prev,
+        ...next,
+      }),
+      {}
+    ) as unknown as T;
+}
 
-export const isBrowser = () => typeof window !== 'undefined'
+export const isBrowser = () => typeof window !== "undefined";
 
 export function setMask(value: string | number, pattern: string) {
   let i = 0;
@@ -32,21 +40,20 @@ export function setMask(value: string | number, pattern: string) {
   return pattern.replace(/#/g, () => valueInString[i++] || "");
 }
 
-
 export const resolvePath = (path: string, obj: Record<string, any>) => {
-  let tempPath = path
+  let tempPath = path;
 
-  Object.keys(obj).map(key => (tempPath = tempPath.replace(`:${key}`, obj[key])))
+  Object.keys(obj).map(
+    (key) => (tempPath = tempPath.replace(`:${key}`, obj[key]))
+  );
 
-  return tempPath
-}
+  return tempPath;
+};
 
 export function saveAs(uri: string, filename: string) {
+  var link = document.createElement("a");
 
-  var link = document.createElement('a');
-
-  if (typeof link.download === 'string') {
-
+  if (typeof link.download === "string") {
     link.href = uri;
     link.download = filename;
 
@@ -58,10 +65,7 @@ export function saveAs(uri: string, filename: string) {
 
     //remove the link when done
     document.body.removeChild(link);
-
   } else {
-
     window.open(uri);
-
   }
 }
